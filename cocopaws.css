@@ -1,0 +1,142 @@
+/* Reset default browser styles */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  background-color: #F8F8F8;
+  color: #333;
+}
+
+/* Header styles */
+header {
+  background-color:  #98B6D4;
+  color: #FFF; 
+padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 30px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 10px;
+}
+
+/* Main styles */
+main {
+  padding: 20px;
+}
+
+#hero {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#hero h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#gallery {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#gallery h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.image-gallery img {
+  width: 300px;
+  height: auto;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+/* Dog-themed styles */
+body {
+  background-color: #CAD5E3; /* Doggy beige */
+  font-family: 'Comic Sans MS', cursive;
+  color: #333;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+#about {
+  background-color: #CAD5E3; /* Doggy pink */
+  padding: 20px;
+  border-radius: 10px;
+}
+/* Styles for the image gallery */
+.image-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.image-gallery img {
+  width: 100%;
+  height: auto;
+}
+.favorite-toy {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.favorite-toy img {
+  max-width: 300px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.caption {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.video-gallery video {
+  max-width: 100%;
+  height: auto;
+}
+
